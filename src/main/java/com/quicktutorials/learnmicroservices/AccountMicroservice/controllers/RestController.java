@@ -20,6 +20,7 @@ public class RestController {
         return "Hello everyone";
     }
 
+    // User1
     @RequestMapping("/newuser1")
     public String addUser(User user){
         return "User added correctly: " + user.getId() + ", " + user.getUsername();
